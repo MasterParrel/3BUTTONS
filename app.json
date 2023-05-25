@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/ramadhani892/3BUTTONS-MEONG",
+  "repository": "https://github.com/LinkFarrel/3BUTTONS-MEONG",
   "logo": "https://telegra.ph/file/9e1ccb4c62cf8375545d0.jpg",
   "env": {
     "TG_BOT_TOKEN": {
