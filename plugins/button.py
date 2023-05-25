@@ -11,8 +11,8 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP and not FORCE_SUB_GROUP2:
         buttons = [
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="• 𝚃𝙴𝙽𝚃𝙰𝙽𝙶 𝚂𝙰𝚈𝙰 •", callback_data="about"),
+                InlineKeyboardButton(text="• 𝚃𝚄𝚃𝚄𝙿 •", callback_data="close"),
             ],
         ]
         return buttons
@@ -23,8 +23,8 @@ def start_button(client):
                 InlineKeyboardButton(text="𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=client.invitelink3),
             ],
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="• 𝚃𝙴𝙽𝚃𝙰𝙽𝙶 𝚂𝙰𝚈𝙰 •", callback_data="about"),
+                InlineKeyboardButton(text="• 𝚃𝚄𝚃𝚄𝙿 •", callback_data="close"),
             ],
         ]
         return buttons
@@ -34,27 +34,27 @@ def start_button(client):
                 InlineKeyboardButton(text="𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="• 𝚃𝙴𝙽𝚃𝙰𝙽𝙶 𝚂𝙰𝚈𝙰 •", callback_data="about"),
+                InlineKeyboardButton(text="• 𝚃𝚄𝚃𝚄𝙿 •", callback_data="close"),
             ],
         ]
         return buttons
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP and not FORCE_SUB_GROUP2:
         buttons = [
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
+                InlineKeyboardButton(text="• 𝚃𝙴𝙽𝚃𝙰𝙽𝙶 𝚂𝙰𝚈𝙰 •", callback_data="about"),
             ],
             [
                 InlineKeyboardButton(tex𝚝="𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=client.invitelink),
                 InlineKeyboardButton(text="𝙹𝙾𝙸𝙽 𝙶𝚁𝙾𝚄𝙿", url=client.invitelink2),
             ],
-            [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
+            [InlineKeyboardButton(text="• 𝚃𝚄𝚃𝚄𝙿 •", callback_data="close")],
         ]
         return buttons
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP and FORCE_SUB_GROUP2:
         buttons = [
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
+                InlineKeyboardButton(text="• 𝚃𝙴𝙽𝚃𝙰𝙽𝙶 𝚂𝙰𝚈𝙰 •", callback_data="about"),
             ],
             [
                 InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=client.invitelink),
@@ -64,7 +64,7 @@ def start_button(client):
                 InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=client.invitelink3),
             ],
             [
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="• 𝚃𝚄𝚃𝚄𝙿 •", callback_data="close"),
             ],
         ]
         return buttons
@@ -80,7 +80,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                        text="𝙲𝙾𝙱𝙰 𝙻𝙰𝙶𝙸",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -98,7 +98,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                        text="𝙲𝙾𝙱𝙰 𝙻𝙰𝙶𝙸",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -117,7 +117,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                        text="𝙲𝙾𝙱𝙰 𝙻𝙰𝙶𝙸",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -139,7 +139,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="ᴄᴏʙᴀ ʟᴀɢɪ",
+                        text="𝙲𝙾𝙱𝙰 𝙻𝙰𝙶𝙸",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
