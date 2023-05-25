@@ -7,7 +7,7 @@
     "sharing"
   ],
   "repository": "https://github.com/LinkFarrel/3BUTONS-MEONG",
-  "logo": "https://telegra.ph/file/9e1ccb4c62cf8375545d0.jpg",
+  "logo": "https://telegra.ph/file/da6d33dbc60330a696113.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
