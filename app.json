@@ -15,11 +15,11 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "thisrama"
+      "value": "meongsukanakal"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "910766621"
+      "value": "1994669089"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
@@ -63,7 +63,7 @@
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>ʜᴇʟʟᴏ {first}\n\nᴍᴀᴀꜰ ᴀɴᴅᴀ ʙᴇʟᴜᴍ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ / ɢʀᴜᴘ ᴋᴀᴍɪ !! ꜱɪʜʟᴀᴋᴀɴ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴅᴀɴ ɢʀᴜᴘ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ\nᴜɴᴛᴜᴋ ᴅᴀᴘᴀᴛ ᴍᴇʟɪʜᴀᴛ ᴠɪᴅᴇᴏ ᴅᴀʀɪ ʙᴏᴛ ɪɴɪ !!\n\nᴊᴏɪɴ ↓</b>"
+      "value": "<b>𝐇𝐄𝐋𝐋𝐎 {first}\n\n 𝙹𝙸𝙺𝙰 𝙸𝙽𝙶𝙸𝙽 𝙼𝙴𝙻𝙸𝙷𝙰𝚃 𝚅𝙸𝙳𝙴𝙾 𝙹𝙾𝙸𝙽 𝙳𝚄𝙻𝚄 𝙶𝚁𝙾𝚄𝙿 𝙳𝙰𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻\n 𝙹𝙾𝙸𝙽 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷 𝚂𝙸𝙽𝙸 ☟\n\n 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : @asupanmilikmu</b>"
     },
     "PROTECT_CONTENT": {
       "description": "Isi True Jika Ingin Untuk Mencegah File Di Teruskan Oleh Orang Lain or False Untuk mematikan ",
