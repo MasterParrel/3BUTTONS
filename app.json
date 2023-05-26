@@ -1,12 +1,12 @@
 {
-  "name": "F-SUBS 3 BUTTON",
+  "name": "F-SUBS 3 BUTTONS",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/ramadhani892/3-BUTTONS",
+  "repository": "https://github.com/MasterParrel/3BUTTONS",
   "logo": "https://telegra.ph/file/9e1ccb4c62cf8375545d0.jpg",
   "env": {
     "TG_BOT_TOKEN": {
