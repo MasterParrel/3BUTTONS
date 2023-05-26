@@ -57,6 +57,10 @@
       "description": "Masukan ID Group / Channel Untuk Wajib Subscribe, Bila Ga kepake isi 0",
       "value": "0"
     },
+    "FORCE_SUB_GROUP3": {
+      "description": "Masukan ID Group / Channel unuk wajib Subscribe, Bila tidak di pakai isi saja 0",
+      "value: "0"
+      },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
       "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
