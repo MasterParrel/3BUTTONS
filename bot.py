@@ -60,7 +60,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/ramsupportt untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/sioyenbul untuk Bantuan"
                 )
                 sys.exit()
 
@@ -80,7 +80,7 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: {FORCE_SUB_GROUP}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/ramsupportt untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/sioyenbul untuk Bantuan"
                 )
                 sys.exit()
 
@@ -100,29 +100,29 @@ class Bot(Client):
                     f"Pastikan @{self.username} adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: {FORCE_SUB_GROUP2}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/ramsupportt untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/sioyenbul untuk Bantuan"
                 )
                 sys.exit()
                 
-       if FORCE_SUB_GROUP3:
-           try:
-                link = (await self.get_chat(FORCE_SUB_GROUP3)).invite_link
-                if not link:
-                    await self.export_chat_invite_link(FORCE_SUB_GROUP3)
-                    link = (await self.get_chat(FORCE_SUB_GROUP3)).invite_link
-                self.invitelink4 = link
-           except Exception as a:
-               self.LOGGER(__name__).warning(a)
-               self.LOGGER(__name__).warning(
-                   "Bot tidak dapat mengambil link invite dari FORCE_SUB_GROUP3!"
-               )
-               self.LOGGER(__name__).warning(
-                   f"pastikan@{self.username} adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: {FORCE_SUB_GROUP3}"
-               )
-               self.LOGGER(__name__).info(
-                   "Bot Berhenti. Gabung Group https://t.me/sioyenbul untuk bantuan"
-               )
-               sys.exit()
+         if FORCE_SUB_GROUP3:
+             try:
+                 link = (await self.get_chat(FORCE_SUB_GROUP3)).invite_link
+                 if not link:
+                     await self.export_chat_invite_link(FORCE_SUB_GROUP3)
+                     link = (await self.get_chat(FORCE_SUB_GROUP3)).invite_link
+                 self.invitelink4 = link
+            except Exception as a:
+                self.LOGGER(__name__).warning(a)
+                self.LOGGER(__name__).warning(
+                    "Bot tidak dapat mengambil link invite dari FORCE_SUB_GROUP3!"
+                )
+                self.LOGGER(__name__).warning(
+                    f"pastikan@{self.username} adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: {FORCE_SUB_GROUP3}"
+                )
+                self.LOGGER(__name__).info(
+                    "Bot Berhenti. Gabung Group https://t.me/sioyenbul untuk bantuan"
+                )
+                sys.exit()
 
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -135,7 +135,7 @@ class Bot(Client):
                 f"Pastikan @{self.username} adalah admin di Channel DataBase anda, CHANNEL_ID Saat Ini: {CHANNEL_ID}"
             )
             self.LOGGER(__name__).info(
-                "Bot Berhenti. Gabung Group https://t.me/ramsupportt untuk Bantuan"
+                "Bot Berhenti. Gabung Group https://t.me/sioyenbul ntuk Bantuan"
             )
             sys.exit()
 
